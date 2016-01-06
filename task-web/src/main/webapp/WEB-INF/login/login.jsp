@@ -59,7 +59,7 @@
 					</div>
 					<div class="form-group">
 						<input type="password" class="form-control" name="loginPasswd" value="" placeholder="请输入验证码"  />
-						<img alt="" src="">
+						<img id="validImage" alt="验证码图片" src="<%=request.getContextPath()%>/valid/index">
 					</div>
 					<div class="form-group" style="height: 40px;">
 						<input type="submit" class="btn btn-success col-md-5 loginBtn" value="注册" />
